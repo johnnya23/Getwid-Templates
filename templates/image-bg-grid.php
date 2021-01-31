@@ -15,7 +15,7 @@ $x = '<article >';
 $x .= '<div class="jma-inner-wrap ' . esc_attr($base_class . ' ' . $attributes['className']) . '" style="position:relative">';
 
 $x .= '<div class="jma-image">';
-$x .= '<a href="' . get_permalink() . '" target="' . $target . '"' . $rel. '>';
+$x .= '<a href="' . $href . '" target="' . $target . '"' . $rel. '>';
 $x .= get_the_post_thumbnail($post, 'jma-gbs-grid');
 $x .= '</a>';
 $x .= '</div>';
