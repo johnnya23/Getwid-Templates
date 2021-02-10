@@ -16,7 +16,7 @@ $x .= '<div class="jma-inner-wrap ' . esc_attr($base_class . ' ' . $attributes['
 
 $x .= '<div class="jma-image">';
 $x .= '<a href="' . $href . '" target="' . $target . '"' . $rel. '>';
-$x .= get_the_post_thumbnail($post, 'jma-gbs-grid', array('style' => 'width:100%));
+$x .= get_the_post_thumbnail($post, 'jma-gbs-grid', array('style' => 'width:100%'));
 $x .= '</a>';
 $x .= '</div>';
 
